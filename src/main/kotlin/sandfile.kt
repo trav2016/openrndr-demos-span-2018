@@ -11,7 +11,7 @@ class Sandbox : DemoRunner() {
 
     override fun setup() {
         camera = Debug3D()
-        val demo = MyDemo(this)
+        val demo = MyDemo(DemoHashBlur3)
         extend(FunctionDrawer {
             demo()
         })
